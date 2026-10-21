@@ -1,0 +1,10 @@
+{
+  "checkpoint": true,
+  "steps": [
+    {"name":"document","action":"document_create","arguments":{"kind":"part","name":"Параметрическая пластина"}},
+    {"name":"sketch","action":"sketch_create","depends_on":["document"],"arguments":{"request":{"document_id":"$document.document_id","name":"Контур","primitives":[{"kind":"rectangle","width":80,"height":60}]}}},
+    {"name":"body","action":"feature_create","depends_on":["sketch"],"arguments":{"request":{"document_id":"$document.document_id","name":"Толщина","operation":{"kind":"extrude","sketch":"$sketch.reference","depth":10}}}},
+    {"name":"save","action":"document_save","depends_on":["body"],"arguments":{"document_id":"$document.document_id","path":"plate.m3d"}},
+    {"name":"export","action":"document_export","depends_on":["save"],"arguments":{"document_id":"$document.document_id","path":"plate.step"}}
+  ]
+}

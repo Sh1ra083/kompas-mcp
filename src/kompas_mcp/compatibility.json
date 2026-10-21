@@ -1,0 +1,15 @@
+{
+  "tested_environment": "KOMPAS-3D v25 Educational x64 25.0.0.2735 / Windows 11 / Python 3.12.10",
+  "full_plan_accepted": false,
+  "scenario_verified": ["extrude", "shell", "rib", "fillet", "boolean", "surface_loft", "thicken", "sew", "surface_trim", "sheet", "bend", "unfold", "plane_offset", "axis_edge", "coordinate_system"],
+  "individual_calls_verified": ["revolve", "sweep", "linear_pattern", "circular_pattern", "mirror", "chamfer", "spiral", "surface_offset"],
+  "not_yet_accepted": ["draft", "loft", "surface_sweep"],
+  "known_limitations": [
+    "Unfold supports selected ISheetMetalBend.Straighten, not a universal unfolding feature.",
+    "No persistent cross-session topology references.",
+    "Assembly interference scan covers top-level components only.",
+    "Specification regrouping/update is explicit and limited to managed specifications created in the same session.",
+    "Component pattern creates explicit instances rather than a native parametric pattern feature.",
+    "No universal capability guarantee for complex geometry or other KOMPAS editions."
+  ]
+}

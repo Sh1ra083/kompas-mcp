@@ -1,0 +1,43 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+# Builds are distributed as reviewed release assets, not source commits
+/build*/
+/dist*/
+*.log
+*.zip
+*.whl
+# CAD workspaces and original user documents
+/cad-workspace/
+/acceptance/
+/work/
+/tmp/
+.com-cache/
+*.m3d
+*.a3d
+*.cdw
+*.spw
+*.frw
+*.stp
+*.step
+*.stl
+*.pdf
+*.bak
+*.sqlite*
+# Local credentials and machine-specific state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+source_root.txt
+SHA256SUMS.json
+configs/local.*
+.vscode/
+.idea/

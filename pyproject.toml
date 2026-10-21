@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kompas-local-mcp"
+version = "0.4.0.dev1"
+description = "Local typed MCP automation for KOMPAS-3D v25"
+readme = "docs/README.md"
+license = "MIT"
+license-files = ["LICENSE", "docs/THIRD_PARTY_NOTICES.md"]
+authors = [{name = "Sh1ra083"}]
+requires-python = ">=3.12,<3.13"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Operating System :: Microsoft :: Windows",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = ["mcp==2.2.0", "pywin32==312", "pydantic==2.13.5", "jsonschema==4.26.0"]
+
+[project.scripts]
+kompas-mcp = "kompas_mcp.server:main"
+
+[project.urls]
+Repository = "https://github.com/Sh1ra083/kompas-mcp"
+Issues = "https://github.com/Sh1ra083/kompas-mcp/issues"
+Documentation = "https://github.com/Sh1ra083/kompas-mcp/tree/main/docs"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+kompas_mcp = ["schemas.json", "compatibility.json", "data/*.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

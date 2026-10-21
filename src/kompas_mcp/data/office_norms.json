@@ -1,0 +1,15 @@
+{
+  "id": "ru-office-2026-09-15-draft",
+  "checked_on": "2026-09-15",
+  "status": "metadata_catalog_not_verified_rule_pack",
+  "cards": [
+    {"id":"gost-21-101-2026","document":"ГОСТ Р 21.101-2026","edition":"2026","title":"СПДС. Основные требования к проектной и рабочей документации. Оформление листов","source":"https://protect.gost.ru/gost/details/17bc12e8-6579-4145-b141-56855e772e7f","checked_on":"2026-09-15","effective_from":"2026-04-01"},
+    {"id":"gost-21-501-2018","document":"ГОСТ 21.501-2018","edition":"2018","title":"Архитектурные и конструктивные решения: планы этажей, разрезы, фасады, экспликация помещений","source":"https://protect.gost.ru/gost/details/a241e289-aac3-4ee2-ad44-3259f9774799","checked_on":"2026-09-15","effective_from":"2019-06-01"},
+    {"id":"gost-21-201-2011","document":"ГОСТ 21.201-2011","edition":"2011","title":"Условные графические изображения элементов зданий, стены, двери, окна","source":"https://protect.gost.ru/gost/details/a7ca3664-3906-4158-9b28-0cb7acbe9be9","checked_on":"2026-09-15"},
+    {"id":"gost-21-110-2013","document":"ГОСТ 21.110-2013","edition":"2013","title":"Спецификация оборудования, изделий и материалов","source":"https://protect.gost.ru/gost/details/e135d52a-eccd-4b7d-b96f-e758c3fce18c","checked_on":"2026-09-15"},
+    {"id":"sp-117-13330-2011","document":"СП 117.13330.2011","edition":"2011; изменения требуют проверки","title":"Общественные здания административного назначения, офисы, кабинеты","source":"https://protect.gost.ru/sp/details/8e46f113-a526-428c-97db-d5cbddd95aa2","checked_on":"2026-09-15"},
+    {"id":"sp-118-13330-2022","document":"СП 118.13330.2022","edition":"2022; изменения требуют проверки","title":"Общественные здания и сооружения","source":"https://protect.gost.ru/sp/details/ced01945-2f53-47c9-bdb8-4875c2b9800e","checked_on":"2026-09-15"},
+    {"id":"sp-59-13330-2020","document":"СП 59.13330.2020","edition":"2020; изменения требуют проверки","title":"Доступность зданий для маломобильных групп населения, проходы, двери, коридоры","source":"https://protect.gost.ru/sp/details/9a314146-2e12-458d-a3dc-914eaa364d51","checked_on":"2026-09-15"},
+    {"id":"sp-44-13330-2011","document":"СП 44.13330.2011","edition":"2011; изменения требуют проверки","title":"Административные и бытовые здания: область применения необходимо проверить; не универсальная норма для офисов","source":"https://protect.gost.ru/sp/details/d4e8fda2-e2a9-45a4-b686-d21347d36ab2","checked_on":"2026-09-15"}
+  ]
+}

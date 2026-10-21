@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "kompas-local": {
+      "command": "C:/CAD/kompas-mcp/.venv/Scripts/python.exe",
+      "args": ["C:/CAD/kompas-mcp/run.py"],
+      "env": {"KOMPAS_MCP_WORKSPACE": "C:/CAD/kompas-workspace"}
+    }
+  }
+}

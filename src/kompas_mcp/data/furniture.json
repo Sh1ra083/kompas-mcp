@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "units": "mm",
+  "dimension_basis": "Editable example product envelopes, not standard or mandatory sizes",
+  "usage_zone": "Must be supplied separately for the selected product and project context",
+  "items": [
+    {"id":"desk","name":"Рабочий стол","width":1400,"depth":700,"height":750},
+    {"id":"meeting_table","name":"Переговорный стол","width":2400,"depth":1200,"height":750},
+    {"id":"office_chair","name":"Офисный стул","width":650,"depth":650,"height":1100},
+    {"id":"visitor_chair","name":"Посетительский стул","width":500,"depth":550,"height":850},
+    {"id":"cabinet","name":"Шкаф","width":900,"depth":450,"height":2000},
+    {"id":"pedestal","name":"Тумба","width":450,"depth":500,"height":600},
+    {"id":"toilet","name":"Унитаз, габарит оборудования","width":400,"depth":700,"height":800},
+    {"id":"basin","name":"Раковина, габарит оборудования","width":600,"depth":500,"height":850}
+  ]
+}
